@@ -1,7 +1,7 @@
 #/bin/sh
 
 # this script is meant to be run from your local development machine.
-
+# it uploads the project to the target machine
 
 if [ "$1" == "" ]; then
   echo "Error: missing parameter.  usage: sbin/upload.sh IP_ADDRESS_OR_NAME"
